@@ -1,0 +1,712 @@
+[
+    {
+        "merchant_id": 77,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "product_title": "$('.product-name.initial').text().trim().split('\\n')[0].trim() + ' ' +$('.product-name.initial').text().trim().split('\\n')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Blundstone77-0.png",
+                "active_image_url": "$('.fotorama__img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.product-name.initial').text().trim().split('-')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.blundstone.com/womens-chelsea-boots"
+            },
+            {
+                "product_title": "$('.product-name.initial').text().trim().split('\\n')[0].trim() + ' ' +$('.product-name.initial').text().trim().split('\\n')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Blundstone77-1.png",
+                "active_image_url": "$('.fotorama__img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.product-name.initial').text().trim().split('-')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.blundstone.com/rustic-brown-premium-waterproof-leather-chelsea-boots-womens-style-584"
+            },
+            {
+                "product_title": "$('.product-name.initial').text().trim().split('\\n')[0].trim() + ' ' +$('.product-name.initial').text().trim().split('\\n')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Blundstone77-2.png",
+                "price": "$('.normal-price').text().trim().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.fotorama__img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.product-name.initial').text().trim().split('-')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.breadcrumbs a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.blundstone.com/checkout/cart/"
+            }
+        ]
+    },
+    {
+        "merchant_id": 78,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 79,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 82,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 85,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "active_color": "$('#product-options__color').text().trim().split(' ').pop(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Bergdorf%20Goodman85-0.png",
+                "url": "https://www.bergdorfgoodman.com/p/a-l-c-becca-smocked-dress-prod169330019?childItemId=BGT2L19_&navpath=cat000000_cat593903_cat589207_cat624507&page=0&position=0&uuid=PDP_PAGINATION_e01f9571f82250ac9b505ccff7b9371e_t8CmS30jkKXLWuTtLFzT_3LTvbrt_f7d4LdqFUgk.jsession"
+            },
+            {
+                "product_title": "$('.product-heading__designer span').text().trim() + ' ' + $('.product-heading__name__product').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Bergdorf Goodman85-1.png",
+                "price": "$('.sale-price h5 span:last').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.product-image img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('#product-options__color').text().trim().split(' ').pop(); | Error Message: jQuery output is empty",
+                "url": "https://www.bergdorfgoodman.com/p/veronica-beard-vigore-smocked-high-neck-dress-prod167470174?childItemId=BGT29X3_&navpath=cat000000_cat000002_cat441206_cat80001&page=0&position=1&uuid=PDP_PAGINATION_bb9c10b38954453f99ea603d0d6d5e5a_t8CmS30jkKXLWuTtLFzT_3LTvbrt_f7d4LdqFUgk.jsession"
+            },
+            {
+                "product_title": "$('.product-heading__designer span').text().trim() + ' ' + $('.product-heading__name__product').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Bergdorf Goodman85-2.png",
+                "price": "$('.sale-price h5 span:last').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.product-image img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('#product-options__color').text().trim().split(' ').pop(); | Error Message: jQuery output is empty",
+                "url": "https://www.bergdorfgoodman.com/p/veronica-beard-hannalee-suede-clog-sandals-prod168150163?utm_source=google_shopping&ecid=BGCS_GP_NCHA_XXXX_XXXXXXXXXXXXXXXX_XXXXXXXX&gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2EHhBqO_Zpn2QdRBiVLY54F-urFub1OsiXuiyYkDZZpbmRWNCdxutgaAiymEALw_wcB&gclsrc=aw.ds"
+            }
+        ]
+    },
+    {
+        "merchant_id": 86,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 102,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 103,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "product_title": "$('.product-information.component h1').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Ann Taylor103-0.png",
+                "active_image_url": "$('.swiper-slide.main-image.swiper-slide-visible.swiper-slide-active img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.colors span.selected').text().trim().split(': ')[1]; | Error Message: jQuery found nothing on the page",
+                "url": "https://www.anntaylor.com/flats/cat660018?pcid=cat660010"
+            },
+            {
+                "active_image_url": "$('.swiper-slide.main-image.swiper-slide-visible.swiper-slide-active img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Ann Taylor103-1.png",
+                "active_color": "$('.colors span.selected').text().trim().split(': ')[1]; | Error Message: jQuery found nothing on the page",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.breadcrumb a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.anntaylor.com/leopard-print-haircalf-mary-jane-flats/572559?skuId=31755382&defaultColor=6822&catid=cata000020&selectedColor=6822"
+            },
+            {
+                "active_image_url": "$('.swiper-slide.main-image.swiper-slide-visible.swiper-slide-active img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Ann Taylor103-2.png",
+                "active_color": "$('.colors span.selected').text().trim().split(': ')[1]; | Error Message: jQuery found nothing on the page",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.breadcrumb a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.anntaylor.com/leopard-print-haircalf-mary-jane-flats/572559?skuId=31755382&defaultColor=6822&catid=cata000020&selectedColor=6822"
+            }
+        ]
+    },
+    {
+        "merchant_id": 104,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 105,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "active_color": "$('.color-selector-wrapper__selected-color').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/REI105-0.png",
+                "url": "https://www.rei.com/product/122134/smith-allure-mips-snow-helmet-womens"
+            },
+            {
+                "product_title": "$('#product-page-title').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/REI105-1.png",
+                "price": "$('#buy-box-product-price').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.color-selector-wrapper__selected-color').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.product-page__breadcrumbs a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.rei.com/product/181919/black-crows-camox-birdie-skis-womens-20212022"
+            },
+            {
+                "product_title": "$('#product-page-title').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/REI105-2.png",
+                "price": "$('#buy-box-product-price').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.color-selector-wrapper__selected-color').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.product-page__breadcrumbs a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.rei.com/product/181919/black-crows-camox-birdie-skis-womens-20212022"
+            }
+        ]
+    },
+    {
+        "merchant_id": 106,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 107,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 108,
+        "num_url_tested": 1,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 109,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "product_title": "$('.product-name:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/prAna109-1.png",
+                "price": "$('.sales span').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.swiper-slide img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.color span:last').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.breadcrumb a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.prana.com/p/sayama-long-jacket/W23202253.html?dwvar_W23202253_color=Camel&pos=6&cjevent=75a4f75851f711ec828802fc0a82b836&utm_source=cj&utm_medium=affiliate&utm_campaign=5370367&SID=27667X859343X25078e05751a3dbeb1a212aa4b4008b3&AID=13998560&CID=5370367&PID=100060542&pubname=Skimlinks&mid=affiliate&eid=cj&nid=5370367&OID=100060542&did=Free+Shipping+On+All+Orders+-+Shop+Men%27s%21&uid=13998560&gid=6"
+            },
+            {
+                "product_title": "$('.product-name:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/prAna109-2.png",
+                "price": "$('.sales span').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.swiper-slide img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.color span:last').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.breadcrumb a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.prana.com/p/sayama-long-jacket/W23202253.html?dwvar_W23202253_color=Camel&pos=6&cjevent=75a4f75851f711ec828802fc0a82b836&utm_source=cj&utm_medium=affiliate&utm_campaign=5370367&SID=27667X859343X25078e05751a3dbeb1a212aa4b4008b3&AID=13998560&CID=5370367&PID=100060542&pubname=Skimlinks&mid=affiliate&eid=cj&nid=5370367&OID=100060542&did=Free+Shipping+On+All+Orders+-+Shop+Men%27s%21&uid=13998560&gid=6"
+            }
+        ]
+    },
+    {
+        "merchant_id": 110,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 111,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 112,
+        "num_url_tested": 1,
+        "num_test_failed": 1,
+        "error_list": [
+            {
+                "product_title": "$('.base').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Helly Hansen112-0.png",
+                "price": "$('.price').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.fotorama__stage__shaft img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.swatch-attribute-selected-option').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.breadcrumbs a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.hellyhansen.com/en_us/w-aspire-puffy-parka-53515"
+            }
+        ]
+    },
+    {
+        "merchant_id": 114,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 192,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 27,
+        "num_url_tested": 2,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 4,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 14,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "active_image_url": "$('.pdp-mfe-11qso3a').find('img:first')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Athleta14-1.png",
+                "active_color": "$('.swatch-label__value').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('#product .pdp-pricing .pdp-pricing__selected').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "product_title": "$('#product h1').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.l--breadcrumb-photo-wrapper a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://athleta.gap.com/browse/product.do?pid=531321142&cid=1059481&pcid=1059481&vid=1&nav=expmore%3Abottoms%3Acategories%3Atights%20%26%20leggings&cpos=0&cexp=1501&kcid=CategoryIDs%3D1059481&ctype=Listing&cpid=res21091008801228098944401&ccam=8577#pdp-page-content"
+            },
+            {
+                "active_image_url": "$('.pdp-mfe-11qso3a').find('img:first')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Athleta14-2.png",
+                "active_color": "$('.swatch-label__value').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('#product .pdp-pricing .pdp-pricing__selected').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "product_title": "$('#product h1').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.l--breadcrumb-photo-wrapper a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://athleta.gap.com/browse/product.do?pid=531321142&cid=1059481&pcid=1059481&vid=1&nav=expmore%3Abottoms%3Acategories%3Atights%20%26%20leggings&cpos=0&cexp=1501&kcid=CategoryIDs%3D1059481&ctype=Listing&cpid=res21091008801228098944401&ccam=8577#pdp-page-content"
+            }
+        ]
+    },
+    {
+        "merchant_id": 41,
+        "num_url_tested": 1,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 34,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "product_title": "$('h1:first').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Nordstrom Rack34-0.png",
+                "price": "$('#current-price-string:first').text().trim().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('img:first').attr('src'); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('#color-filter-product-page-anchor span:first, #desktop-sku-filters span:last').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "brand": "$('#product-page-product-title-lockup h2:first span').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "breadcrumbs": "$(location.href.split('mywebsite'))[0].split('breadcrumb=')[1].split('&')[0].replaceAll('%2F', ' | ').replaceAll('%20', ' ').replaceAll('%26', '&'); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.nordstromrack.com/s/catherine-catherine-malandrino-sky-print-cashmere-pullover-sweater/6446569?color=STRAWBERRY%2FFROST+WHI&utm_source=google&utm_medium=cpc&utm_campaign=11039513930&utm_term=&utm_content=103501928530&utm_channel=LOW_ND_SHOPPING_STANDARD&sid=545650&adpos=&creative=466031780052&device=c&matchtype=&network=g&acctid=21700000001756534&dskeywordid=92700057050042119&lid=92700057050042119&ds_s_kwgid=58700006318553885&ds_s_inventory_feed_id=97700000012930068&dsproductgroupid=296495631826&product_id=35425294&merchid=100921846&prodctry=US&prodlang=en&channel=online&storeid=&locationid=9003762&targetid=pla-296495631826&campaignid=11039513930&adgroupid=103501928530&gclid=Cj0KCQiA7oyNBhDiARIsADtGRZbcb7u1b6rYz0OtmLj1eSsFOVZlUWDsrthzlZ1X1yXpEIOdFWWzw3QaAvOCEALw_wcB&gclsrc=aw.ds"
+            },
+            {
+                "product_title": "$('h1:first').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Nordstrom Rack34-1.png",
+                "price": "$('#current-price-string:first').text().trim().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('img:first').attr('src'); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('#color-filter-product-page-anchor span:first, #desktop-sku-filters span:last').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "brand": "$('#product-page-product-title-lockup h2:first span').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "breadcrumbs": "$(location.href.split('mywebsite'))[0].split('breadcrumb=')[1].split('&')[0].replaceAll('%2F', ' | ').replaceAll('%20', ' ').replaceAll('%26', '&'); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.nordstromrack.com/s/catherine-catherine-malandrino-sky-print-cashmere-pullover-sweater/6446569?color=STRAWBERRY%2FFROST+WHI&utm_source=google&utm_medium=cpc&utm_campaign=11039513930&utm_term=&utm_content=103501928530&utm_channel=LOW_ND_SHOPPING_STANDARD&sid=545650&adpos=&creative=466031780052&device=c&matchtype=&network=g&acctid=21700000001756534&dskeywordid=92700057050042119&lid=92700057050042119&ds_s_kwgid=58700006318553885&ds_s_inventory_feed_id=97700000012930068&dsproductgroupid=296495631826&product_id=35425294&merchid=100921846&prodctry=US&prodlang=en&channel=online&storeid=&locationid=9003762&targetid=pla-296495631826&campaignid=11039513930&adgroupid=103501928530&gclid=Cj0KCQiA7oyNBhDiARIsADtGRZbcb7u1b6rYz0OtmLj1eSsFOVZlUWDsrthzlZ1X1yXpEIOdFWWzw3QaAvOCEALw_wcB&gclsrc=aw.ds"
+            },
+            {
+                "product_title": "$('h1:first').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Nordstrom Rack34-2.png",
+                "price": "$('#current-price-string:first').text().trim().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('img:first').attr('src'); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('#color-filter-product-page-anchor span:first, #desktop-sku-filters span:last').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "brand": "$('#product-page-product-title-lockup h2:first span').text().trim(); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "breadcrumbs": "$(location.href.split('mywebsite'))[0].split('breadcrumb=')[1].split('&')[0].replaceAll('%2F', ' | ').replaceAll('%20', ' ').replaceAll('%26', '&'); | Error Message: javascript error: $ is not defined\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.nordstromrack.com/s/catherine-catherine-malandrino-sky-print-cashmere-pullover-sweater/6446569?color=STRAWBERRY%2FFROST+WHI&utm_source=google&utm_medium=cpc&utm_campaign=11039513930&utm_term=&utm_content=103501928530&utm_channel=LOW_ND_SHOPPING_STANDARD&sid=545650&adpos=&creative=466031780052&device=c&matchtype=&network=g&acctid=21700000001756534&dskeywordid=92700057050042119&lid=92700057050042119&ds_s_kwgid=58700006318553885&ds_s_inventory_feed_id=97700000012930068&dsproductgroupid=296495631826&product_id=35425294&merchid=100921846&prodctry=US&prodlang=en&channel=online&storeid=&locationid=9003762&targetid=pla-296495631826&campaignid=11039513930&adgroupid=103501928530&gclid=Cj0KCQiA7oyNBhDiARIsADtGRZbcb7u1b6rYz0OtmLj1eSsFOVZlUWDsrthzlZ1X1yXpEIOdFWWzw3QaAvOCEALw_wcB&gclsrc=aw.ds"
+            }
+        ]
+    },
+    {
+        "merchant_id": 38,
+        "num_url_tested": 3,
+        "num_test_failed": 1,
+        "error_list": [
+            {
+                "price": "$('.PdpMasterProductDetails__price-section p').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Allbirds38-2.png",
+                "active_color": "$('.Overview span:last').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(document.querySelectorAll('.PdpBreadcrumbs a')).map(x => x.innerText.trim()).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://www.allbirds.com/products/womens-wool-runners-ausangate"
+            }
+        ]
+    },
+    {
+        "merchant_id": 28,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "product_title": "$('.product_title_badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Levi's28-0.png",
+                "brand": "$('.merchant-badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.levi.com/US/en_US/clothing/women/jeans/711-skinny-womens-jeans/p/188810208?utm_source=google&utm_medium=cpc&adpos=&camp=PLA%2aEC%2aUS%2aEN%2a71700000085373931%2apla%2agoog%2a%2a%3A92700064955357690%3ALEVI&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WgKfKQJM3ocDINFqfTInNbouI6zPw0a4erhRAJ5zsctXkMaksW8b4AaAsz-EALw_wcB&gclsrc=aw.ds"
+            },
+            {
+                "product_title": "$('.product_title_badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Levi's28-1.png",
+                "brand": "$('.merchant-badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.levi.com/US/en_US/clothing/women/jeans/711-skinny-womens-jeans/p/188810208?utm_source=google&utm_medium=cpc&adpos=&camp=PLA%2aEC%2aUS%2aEN%2a71700000085373931%2apla%2agoog%2a%2a%3A92700064955357690%3ALEVI&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WgKfKQJM3ocDINFqfTInNbouI6zPw0a4erhRAJ5zsctXkMaksW8b4AaAsz-EALw_wcB&gclsrc=aw.ds"
+            },
+            {
+                "product_title": "$('.product_title_badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Levi's28-2.png",
+                "url": "https://www.levi.com/US/en_US/apparel/clothing/bottoms/721-high-rise-skinny-womens-jeans/p/188820233"
+            }
+        ]
+    },
+    {
+        "merchant_id": 30,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "product_title": "$('.product-title-component:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Hollister30-1.png",
+                "price": "$('.product-price-text').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[1]; | Error Message: javascript error: Cannot read properties of null (reading '1')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.product-main-image')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.product-attrs__shown-in').text().split('Shown In')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.short-description:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.hollisterco.com/shop/wd-es/p/paquete-de-5-camisetas-de-punto-con-cuello-redondo-hollister-sport-46271326?categoryId=166245&seq=01&faceout=prod1"
+            },
+            {
+                "product_title": "$('.product-title-component:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Hollister30-2.png",
+                "price": "$('.product-price-text').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[1]; | Error Message: javascript error: Cannot read properties of null (reading '1')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.product-main-image')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.product-attrs__shown-in').text().split('Shown In')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.short-description:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.hollisterco.com/shop/wd-es/p/paquete-de-5-camisetas-de-punto-con-cuello-redondo-hollister-sport-46271326?categoryId=166245&seq=01&faceout=prod1"
+            }
+        ]
+    },
+    {
+        "merchant_id": 20,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 43,
+        "num_url_tested": 1,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 57,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 1,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "active_color": "$('.product-attribute__selected-value').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Reformation1-0.png",
+                "price": "$('.sales:first > .value').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g).pop(); | Error Message: javascript error: Cannot read properties of null (reading 'pop')\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.thereformation.com/products/channa-dress?color=Fruit+Loops%23/"
+            },
+            {
+                "active_color": "$('.product-attribute__selected-value').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Reformation1-1.png",
+                "price": "$('.sales:first > .value').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g).pop(); | Error Message: javascript error: Cannot read properties of null (reading 'pop')\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.thereformation.com/products/channa-dress?color=Fruit+Loops%23/"
+            },
+            {
+                "active_color": "$('.product-attribute__selected-value').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Reformation1-2.png",
+                "price": "$('.sales:first > .value').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g).pop(); | Error Message: javascript error: Cannot read properties of null (reading 'pop')\n  (Session info: chrome=99.0.4844.82)\n",
+                "url": "https://www.thereformation.com/products/channa-dress?color=Fruit+Loops#/"
+            }
+        ]
+    },
+    {
+        "merchant_id": 32,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "brand": "$('.product-detail__badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Guess32-0.png",
+                "url": "https://www.guess.com/us/en/women/apparel/sweaters-and-hoodies/doni-turtleneck-sweater-white/W1BR51Z2WL0-G012.html?variationID=14194221"
+            },
+            {
+                "product_title": "$('.product-name:first').text(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Guess32-1.png",
+                "price": "$('.price__value:first').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.css-b7jmoi').find('img:first')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.js-selected-color').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.product-breadcrumb a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.product-detail__badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.guess.com/us/en/women/apparel/sweaters-and-hoodies/doni-turtleneck-sweater-white/W1BR51Z2WL0-G012.html?variationID=14194221"
+            },
+            {
+                "product_title": "$('.product-name:first').text(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Guess32-2.png",
+                "price": "$('.price__value:first').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.css-b7jmoi').find('img:first')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.js-selected-color').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.product-breadcrumb a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.product-detail__badge:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.guess.com/us/en/women/apparel/dresses-and-jumpsuits/sweater-and-knit/eco-giselle-sweater-dress-blue/W2RK28Z2Y72-G7HR.html"
+            }
+        ]
+    },
+    {
+        "merchant_id": 24,
+        "num_url_tested": 1,
+        "num_test_failed": 1,
+        "error_list": [
+            {
+                "active_image_url": "$('.pdp-mfe-11qso3a').find('img:first')[0].src; | Error Message: javascript error: Cannot read properties of undefined (reading 'src')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Old Navy24-0.png",
+                "active_color": "$('.swatch-label__value').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('#product .pdp-pricing .pdp-pricing__selected').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "product_title": "$('#product h1').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.l--breadcrumb-photo-wrapper a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://oldnavy.gap.com/browse/product.do?pid=765729002&cid=72087&pcid=72087&vid=1&nav=meganav%3AWomen+%26+Women%E2%80%99s+Plus%3AShop+Women%27s+Categories%3AShirts+%26+Blouses+&cpos=4&cexp=2223&kcid=CategoryIDs%3D72087&cvar=16849&ctype=Listing&cpid=res21111713364100435918243&ccam=9761&modelSize=M#pdp-page-content"
+            }
+        ]
+    },
+    {
+        "merchant_id": 18,
+        "num_url_tested": 1,
+        "num_test_failed": 1,
+        "error_list": [
+            {
+                "active_image_url": "$('.qa-grid-item-1 picture img:first').attr('src').split('//')[1]; | Error Message: javascript error: Cannot read properties of undefined (reading 'split')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/American Eagle Outfitters18-0.png",
+                "active_color": "$('.product-color').text(); | Error Message: jQuery output is empty",
+                "url": "https://www.ae.com/us/en/p/aerie/tops/t/aerie-ribbed-square-neck-t/5495_2599_271?menu=cat4840006&ip=off&utm_source=google&utm_medium=pla&utm_content=aerie&utm_campaign=nogender_tops_tshirts&utm_term=nonbrand&gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ykYgN8v0I50Ihm4wsXUrSkNQDf8aq4gBqFzF1eBJc88X1e2blv4ClEaAmD-EALw_wcB"
+            }
+        ]
+    },
+    {
+        "merchant_id": 60,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 21,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "error": "ERROR: SELENIUM TIMEOUT, no jQuery has been tested (selenium.common.exceptions.TimeoutException)",
+                "url": "https://www.revolve.com/common-projects-original-leather-achilles-low/dp/COMF-MZ257/?d=Mens&srcType=dp_recs_viewed2&size=Eur%2042%20%2F%20US%209"
+            },
+            {
+                "price": "$('.price--xl:last > span:first').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Revolve21-1.png",
+                "url": "https://www.revolve.com/michael-costello-x-revolve-shannon-maxi-dress/dp/MELR-WD447/?d=Womens&srcType=dp_recs_pers&size=L"
+            },
+            {
+                "error": "ERROR: SELENIUM TIMEOUT, no jQuery has been tested (selenium.common.exceptions.TimeoutException)",
+                "url": "https://www.revolve.com/poster-girl-the-miranda-mini-dress-in-tangerine/dp/PGIR-WD1/?d=Womens&sectionURL=https%3A%2F%2Fwww.revolve.com%2Fclothing%2Fbr%2F3699fc%2F%3Fnavsrc%3Dmai&code=PGIR-WD1"
+            }
+        ]
+    },
+    {
+        "merchant_id": 8,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "active_image_url": "$('.c-pwa-image-viewer__img-outer > picture >img')[0].currentSrc | Error Message: javascript error: Cannot read properties of undefined (reading 'currentSrc')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Free People8-1.png",
+                "product_title": "$('.c-pwa-product-meta-heading, .c-pwa-family-product__heading').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('.c-pwa-quickshop .c-pwa-product-price__current, .c-pwa-product-container .c-pwa-product-price__current').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.c-pwa-sku-selection__color-value').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.o-pwa-breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.c-pwa-product-partner-url a:first').text().trim().replaceAll('See all ', '').replaceAll('Shop all ', ''); | Error Message: jQuery output is empty",
+                "url": "https://www.freepeople.com/shop/mare-perpetua-the-essential-bikini-bottoms/?color=112&recommendation=pdp-primary-sfrectray-rectraycobrowse&type=REGULAR&quantity=1"
+            },
+            {
+                "active_image_url": "$('.c-pwa-image-viewer__img-outer > picture >img')[0].currentSrc | Error Message: javascript error: Cannot read properties of undefined (reading 'currentSrc')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Free People8-2.png",
+                "product_title": "$('.c-pwa-product-meta-heading, .c-pwa-family-product__heading').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('.c-pwa-quickshop .c-pwa-product-price__current, .c-pwa-product-container .c-pwa-product-price__current').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.c-pwa-sku-selection__color-value').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.o-pwa-breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.c-pwa-product-partner-url a:first').text().trim().replaceAll('See all ', '').replaceAll('Shop all ', ''); | Error Message: jQuery output is empty",
+                "url": "https://www.freepeople.com/shop/mare-perpetua-the-essential-bikini-bottoms/?color=112&recommendation=pdp-primary-sfrectray-rectraycobrowse&type=REGULAR&quantity=1"
+            }
+        ]
+    },
+    {
+        "merchant_id": 33,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 59,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "price": "$('#pdpRegularPriceText').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/SSENSE59-1.png",
+                "active_image_url": "$('.pdp-image img').attr('srcset'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('#pdpProductDescriptionContainerText').text().split('color:')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "product_title": "$('#pdpBrandNameText').text().trim() + ' ' + $('#pdpProductNameText').text().trim(); | Error Message: jQuery output is empty",
+                "brand": "$('#pdpBrandNameText').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.ssense.com/en-us/women/product/re-done/white-ribbed-tank-top/8581001?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7yn6rqhUDPOlPutCV5vVtcWFaX3TJQUH-M7F5egsGRWOtbDSNeoCeLEaAjfOEALw_wcB"
+            },
+            {
+                "price": "$('#pdpRegularPriceText').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/SSENSE59-2.png",
+                "active_image_url": "$('.pdp-image img').attr('srcset'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('#pdpProductDescriptionContainerText').text().split('color:')[1].trim(); | Error Message: javascript error: Cannot read properties of undefined (reading 'trim')\n  (Session info: chrome=99.0.4844.82)\n",
+                "product_title": "$('#pdpBrandNameText').text().trim() + ' ' + $('#pdpProductNameText').text().trim(); | Error Message: jQuery output is empty",
+                "brand": "$('#pdpBrandNameText').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.ssense.com/en-us/women/product/re-done/white-ribbed-tank-top/8581001?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7yn6rqhUDPOlPutCV5vVtcWFaX3TJQUH-M7F5egsGRWOtbDSNeoCeLEaAjfOEALw_wcB"
+            }
+        ]
+    },
+    {
+        "merchant_id": 31,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 51,
+        "num_url_tested": 0,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 40,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 26,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 9,
+        "num_url_tested": 1,
+        "num_test_failed": 0,
+        "error_list": []
+    },
+    {
+        "merchant_id": 17,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "active_image_url": "$('.c-pwa-image-viewer__img-outer > picture >img')[0].currentSrc | Error Message: javascript error: Cannot read properties of undefined (reading 'currentSrc')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Anthropologie17-1.png",
+                "product_title": "$('.c-pwa-product-meta-heading, .c-pwa-family-product__heading').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('.c-pwa-quickshop .c-pwa-product-price__current, .c-pwa-product-container .c-pwa-product-price__current').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.c-pwa-sku-selection__color-value').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.o-pwa-breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.c-pwa-product-partner-url a:first').text().trim().replaceAll('See all ', '').replaceAll('Shop all ', ''); | Error Message: jQuery output is empty",
+                "url": "https://www.anthropologie.com/shop/laetitia-rouget-oh-la-la-kimono-cardigan?category=scarves-and-kimonos&color=066&type=STANDARD&size=One%20Size&quantity=1"
+            },
+            {
+                "active_image_url": "$('.c-pwa-image-viewer__img-outer > picture >img')[0].currentSrc | Error Message: javascript error: Cannot read properties of undefined (reading 'currentSrc')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Anthropologie17-2.png",
+                "product_title": "$('.c-pwa-product-meta-heading, .c-pwa-family-product__heading').text().trim(); | Error Message: jQuery output is empty",
+                "price": "$('.c-pwa-quickshop .c-pwa-product-price__current, .c-pwa-product-container .c-pwa-product-price__current').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_color": "$('.c-pwa-sku-selection__color-value').text().trim(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.o-pwa-breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.c-pwa-product-partner-url a:first').text().trim().replaceAll('See all ', '').replaceAll('Shop all ', ''); | Error Message: jQuery output is empty",
+                "url": "https://www.anthropologie.com/shop/laetitia-rouget-oh-la-la-kimono-cardigan?category=scarves-and-kimonos&color=066&type=STANDARD&size=One%20Size&quantity=1"
+            }
+        ]
+    },
+    {
+        "merchant_id": 23,
+        "num_url_tested": 3,
+        "num_test_failed": 2,
+        "error_list": [
+            {
+                "product_title": "$('.product-name:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Polo Ralph Lauren23-1.png",
+                "price": "$('.js-product-normal-prices').attr('value').split(' - ')[0].trim().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of undefined (reading 'split')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.swiper-zoomable').attr('data-highres-images'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.selected-color:first').text(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.breadcrumb a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.brand-name:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.ralphlauren.com/women-clothing-sweaters/polo-bear-cotton-linen-sweater/0040171423.html?utm_source=CSE&utm_medium=GooglePLA_1415697775386_14591676679_132643863251&gclid=Cj0KCQiAuP-OBhDqARIsAD4XHpc12F0SA_pL5hOaiOnNYroVfrgKx7j4KgdzLkZSzwgoEip4FRsf6fcaAhTuEALw_wcB&gclsrc=aw.ds"
+            },
+            {
+                "product_title": "$('.product-name:first').text().trim(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Polo Ralph Lauren23-2.png",
+                "price": "$('.js-product-normal-prices').attr('value').split(' - ')[0].trim().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of undefined (reading 'split')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.swiper-zoomable').attr('data-highres-images'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.selected-color:first').text(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.breadcrumb a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.brand-name:first').text().trim(); | Error Message: jQuery output is empty",
+                "url": "https://www.ralphlauren.com/women-clothing-sweaters/polo-bear-cotton-linen-sweater/0040171423.html?utm_source=CSE&utm_medium=GooglePLA_1415697775386_14591676679_132643863251&gclid=Cj0KCQiAuP-OBhDqARIsAD4XHpc12F0SA_pL5hOaiOnNYroVfrgKx7j4KgdzLkZSzwgoEip4FRsf6fcaAhTuEALw_wcB&gclsrc=aw.ds"
+            }
+        ]
+    },
+    {
+        "merchant_id": 56,
+        "num_url_tested": 2,
+        "num_test_failed": 1,
+        "error_list": [
+            {
+                "product_title": "$('.productName > span:first').text(); | Error Message: jQuery output is empty",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Tommy Hilfiger56-1.png",
+                "price": "$('.offerPrice2:first').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "active_image_url": "$('.product_main_image img').attr('src'); | Error Message: jQuery found nothing on the page",
+                "active_color": "$('.colorFacet:first').text(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('#breadcrumb a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "brand": "$('.subBrandTitle > span:first').text(); | Error Message: jQuery output is empty",
+                "url": "https://usa.tommy.com/en/women/women-jackets-coats/glossy-recycled-down-hooded-puffer-jacket-ww32803"
+            }
+        ]
+    },
+    {
+        "merchant_id": 52,
+        "num_url_tested": 3,
+        "num_test_failed": 1,
+        "error_list": [
+            {
+                "price": "$('.price').text().match(/[+-]?([0-9]*[.,])?[0-9]+/g)[0]; | Error Message: javascript error: Cannot read properties of null (reading '0')\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Lululemon52-2.png",
+                "active_color": "$('div[data-testid=\"colorDetails\"] p span:last').text().trim(); | Error Message: jQuery output is empty",
+                "product_title": "$('.pdp-title div:first').text().trim() + ' ' + $('.pdp-title button:first').text(); | Error Message: jQuery output is empty",
+                "breadcrumbs": "Array.from(new Set(Array.from(document.querySelectorAll('.breadcrumbs a')).map(x => x.innerText.trim()))).join(' | '); | Error Message: jQuery output is empty",
+                "url": "https://shop.lululemon.com/p/gloves-mittens/Fleece-Lined-Knit-Mittens/_/prod10641650?color=1966&sz=ONESIZE"
+            }
+        ]
+    },
+    {
+        "merchant_id": 22,
+        "num_url_tested": 3,
+        "num_test_failed": 3,
+        "error_list": [
+            {
+                "active_color": "$('.btn--tag.tag-details__btn.btn--icon').text.trim(); | Error Message: javascript error: $(...).text.trim is not a function\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Poshmark22-0.png",
+                "url": "https://poshmark.com/listing/Reformation-Channa-Linen-Dress-6119a9df09d7609bf28ab7e0#utm_source=gdm_unpaid"
+            },
+            {
+                "active_color": "$('.btn--tag.tag-details__btn.btn--icon').text.trim(); | Error Message: javascript error: $(...).text.trim is not a function\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Poshmark22-1.png",
+                "url": "https://poshmark.com/listing/Reformation-Channa-Linen-Dress-6119a9df09d7609bf28ab7e0#utm_source=gdm_unpaid"
+            },
+            {
+                "active_color": "$('.btn--tag.tag-details__btn.btn--icon').text.trim(); | Error Message: javascript error: $(...).text.trim is not a function\n  (Session info: chrome=99.0.4844.82)\n",
+                "screenshot": "./output/03-22-2022(23-01-05)/screenshots/Poshmark22-2.png",
+                "url": "https://poshmark.com/listing/HATCH-Cashmere-Joggers-5fed1c54074d245f65f09627"
+            }
+        ]
+    },
+    {
+        "merchant_id": 15,
+        "num_url_tested": 3,
+        "num_test_failed": 0,
+        "error_list": []
+    }
+]
